@@ -17,7 +17,7 @@ def kde(x, x_grid, bandwidth=0.2):
 
 
 def main():
-    data = np.loadtxt("dataset.txt")
+    data = np.loadtxt("dataset1.txt")
     n = data.shape[0] / 10
     min_x = np.min(data)
     max_x = np.max(data)
@@ -60,11 +60,11 @@ def main():
 
     # Checks whether the two data samples come from the same distribution
     significance_levels = [1.22, 1.36, 1.48, 1.63, 1.73, 1.95]
-    for a in significance_levels:
-        if D > a * np.sqrt((n + n) / (n * n)):
-            print("Null hypothesis, if a =", a)
+    for c_a in significance_levels:
+        if D > c_a * np.sqrt((n + n) / (n * n)):
+            print("Null hypothesis, if c(a) =", c_a)
         else:
-            print("Same distribution, if a =", a)
+            print("Same distribution, if c(a) =", c_a)
 
 
 if __name__ == "__main__":
