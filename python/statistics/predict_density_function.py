@@ -17,7 +17,7 @@ def kde(x, x_grid, bandwidth=0.2):
 
 
 def main():
-    data = np.loadtxt("dataset1.txt")
+    data = np.loadtxt("dataset.txt")
     n = data.shape[0] / 10
     min_x = np.min(data)
     max_x = np.max(data)
