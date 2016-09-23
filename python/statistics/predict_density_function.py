@@ -11,7 +11,7 @@ from scipy import stats
 
 
 def kde(x, x_grid, bandwidth=0.2):
-    # kde = gaussian_kde(x, bw_method=bandwidth / x.std(ddof=1))
+    "Kernel-Density Estimate using Gaussian Kernels."
     kde = gaussian_kde(x, bw_method=bandwidth / x.std(ddof=1))
     return kde.evaluate(x_grid)
 
@@ -59,8 +59,8 @@ def main():
     D, p = stats.ks_2samp(cumulative_default, cumulative_kde)
 
     # Checks whether the two data samples come from the same distribution
-    significance_levels = [1.22, 1.36, 1.48, 1.63, 1.73, 1.95]
-    for c_a in significance_levels:
+    critical_values = [1.22, 1.36, 1.48, 1.63, 1.73, 1.95]
+    for c_a in critical_values:
         if D > c_a * np.sqrt((n + n) / (n * n)):
             print("Null hypothesis, if c(a) =", c_a)
         else:
