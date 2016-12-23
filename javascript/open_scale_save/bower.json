@@ -1,0 +1,13 @@
+{
+  "name": "scale",
+  "homepage": "https://github.com/Ugnelis/code-samples",
+  "authors": [
+    "Ugnius Malūkas <ugnius.malukas@gmail.com>"
+  ],
+  "description": "Open, scale, save image code example with FabricJS in Javascript.",
+  "main": "",
+  "dependencies": {
+    "fabric.js": "fabric#^1.6.6",
+    "file-saver": "^1.3.3"
+  }
+}

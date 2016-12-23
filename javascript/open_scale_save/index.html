@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+<canvas id="canvas" width="100" height="100"></canvas>
+
+<div>
+    <label for="scale">Scale:</label>
+    <input type="range" id="scale" name="scale" min="0" max="10"/>
+    <button onclick="scale()">Scale</button>
+</div>
+
+<fieldset id="fileFieldset">
+    <div>
+        <input type="file" id="open-file" onchange="handleFileSelect(this)" name="files"/>
+    </div>
+    <div>
+        <button id="save-file" onclick="handleFileSave()">Save File</button>
+        <label for="fileName">File name: </label> <input name="fileName" id="fileName">
+    </div>
+</fieldset>
+
+<script src="bower_components/fabric.js/dist/fabric.js"></script>
+<script src="bower_components/file-saver/FileSaver.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
