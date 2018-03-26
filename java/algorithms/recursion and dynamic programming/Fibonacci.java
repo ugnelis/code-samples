@@ -1,7 +1,7 @@
 class Fibonacci {
 
     /* 
-     * Top-Down Dynamic Programming.
+     * Recursive.
      * O(n^2).
      */
     public static int recursive(int number) {
