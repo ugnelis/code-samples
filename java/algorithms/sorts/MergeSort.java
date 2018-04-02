@@ -19,7 +19,7 @@ class MergeSort {
         }
         
         int helperLeft = low;
-        int helperRight = middle;
+        int helperRight = middle + 1;
         int current = low;
         
         while (helperLeft <= middle && helperRight <= high) {
@@ -34,7 +34,7 @@ class MergeSort {
         }
         
         int remaining = middle - helperLeft;
-        for (int i = 0; i < remaining; ++i) {
+        for (int i = 0; i <= remaining; ++i) {
             array[current + i] = helper[helperLeft + i];
         }
     }
