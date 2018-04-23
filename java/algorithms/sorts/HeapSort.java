@@ -16,6 +16,9 @@ class HeapSort {
         }
     }
     
+    /**
+      * Creates max heap.
+      */
     private static void heapify(int[] array, int heapSize, int i) {
         int left = i * 2 + 1;
         int right = i * 2 + 2;
