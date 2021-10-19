@@ -63,8 +63,27 @@ This repository contains various useful code samples.
 
 * [Open, scale, save image](javascript/utility/open_scale_save)
 
-## TODO:
+## Python
 
-* [ ] Clean Python section
-* [ ] Add links to Python files.
-* [ ] Add descriptions for each link.
+### Computer Vision
+
+**Projects**
+
+* [Find ellipses in the image](python/computer_vision/find_ellipses/find_ellipses.py)
+
+### Machine Learning
+
+**Courses**
+
+* [Udacity deep learning course](python/machine_learning/courses/udacity_deep_learning)
+
+**Utility**
+
+* [TensorFlow Deconvolution network](python/machine_learning/tensorflow/deconv/deconv.py)
+* [TensorFlow image saving](python/machine_learning/tensorflow/image_saving/image_saving.py)
+
+### Statistics
+
+**Projects**
+
+* [For a given data set X, predict its density function](python/statistics/density_function/predict_density_function.py)
