@@ -33,13 +33,18 @@ This repository contains various useful code samples.
 
 **Math**
 
-* [Greatest Common Divisor](java/algorithms/math/GCD_LCM.java) is the largest positive integer that divides each of the integers
-* [Least Common Multiple](java/algorithms/math/GCD_LCM.java) is the smallest positive integer that is divisible by both a and b.
-* [Sieve of Eratosthenes](java/algorithms/math/SieveOfEratosthenes.java)  is an ancient algorithm for finding all prime numbers up to any given limit.
+* [Greatest Common Divisor](java/algorithms/math/GCD_LCM.java) is the largest positive integer that divides each of the
+  integers
+* [Least Common Multiple](java/algorithms/math/GCD_LCM.java) is the smallest positive integer that is divisible by both
+  a and b.
+* [Sieve of Eratosthenes](java/algorithms/math/SieveOfEratosthenes.java)  is an ancient algorithm for finding all prime
+  numbers up to any given limit.
 
 **Recursion and Dynamic Programming*
 
-* [Fibonacci](java/algorithms/recursion_and_dynamic_programming/Fibonacci.java) sequence is a set of numbers that starts with a one or a zero, followed by a one, and proceeds based on the rule that each number (called a Fibonacci number) is equal to the sum of the preceding two numbers.
+* [Fibonacci](java/algorithms/recursion_and_dynamic_programming/Fibonacci.java) sequence is a set of numbers that starts
+  with a one or a zero, followed by a one, and proceeds based on the rule that each number (called a Fibonacci number)
+  is equal to the sum of the preceding two numbers.
 * [Find number of sets that add up to given sum number](java/algorithms/recursion_and_dynamic_programming/FindSetsNumber.java)
 
 **Searching**
@@ -57,11 +62,17 @@ This repository contains various useful code samples.
 
 ## JavaScript
 
-### Pure JavasScript
+### Projects
 
 **Utility**
 
-* [Open, scale, save image](javascript/utility/open_scale_save)
+* [Open, scale, save image](javascript/utility/open_scale_save) in pure JavaScript.
+
+**Cesium**
+
+* [Check if an entity is visible](javascript/cesium/entity_is_visible)
+
+### Cesium
 
 ## Python
 
