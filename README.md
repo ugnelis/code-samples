@@ -20,7 +20,7 @@ This repository contains various useful code samples.
 
 * [Sudoku](java/algorithms/games/Sudoku.java) is a logic-based, combinatorial number-placement puzzle. In classic
   sudoku, the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3
-  subgrids that compose the grid contain all of the digits from 1 to 9
+  subgrids that compose the grid contain all the digits from 1 to 9
 
 **Graphs**
 
@@ -33,13 +33,13 @@ This repository contains various useful code samples.
 
 **Math**
 
-* [Greatest Common Divisor](java/algorithms/math/GCD_LCM.java)
-* [Least Common Multiple](java/algorithms/math/GCD_LCM.java)
-* [Sieve of Eratosthenes](java/algorithms/math/SieveOfEratosthenes.java)
+* [Greatest Common Divisor](java/algorithms/math/GCD_LCM.java) is the largest positive integer that divides each of the integers
+* [Least Common Multiple](java/algorithms/math/GCD_LCM.java) is the smallest positive integer that is divisible by both a and b.
+* [Sieve of Eratosthenes](java/algorithms/math/SieveOfEratosthenes.java)  is an ancient algorithm for finding all prime numbers up to any given limit.
 
 **Recursion and Dynamic Programming*
 
-* [Fibonacci](java/algorithms/recursion_and_dynamic_programming/Fibonacci.java)
+* [Fibonacci](java/algorithms/recursion_and_dynamic_programming/Fibonacci.java) sequence is a set of numbers that starts with a one or a zero, followed by a one, and proceeds based on the rule that each number (called a Fibonacci number) is equal to the sum of the preceding two numbers.
 * [Find number of sets that add up to given sum number](java/algorithms/recursion_and_dynamic_programming/FindSetsNumber.java)
 
 **Searching**
@@ -59,7 +59,7 @@ This repository contains various useful code samples.
 
 ### Pure JavasScript
 
-### Utility
+**Utility**
 
 * [Open, scale, save image](javascript/utility/open_scale_save)
 
