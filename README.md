@@ -40,7 +40,7 @@ This repository contains various useful code samples.
 * [Sieve of Eratosthenes](java/algorithms/math/SieveOfEratosthenes.java)  is an ancient algorithm for finding all prime
   numbers up to any given limit.
 
-**Recursion and Dynamic Programming*
+**Recursion and Dynamic Programming**
 
 * [Fibonacci](java/algorithms/recursion_and_dynamic_programming/Fibonacci.java) sequence is a set of numbers that starts
   with a one or a zero, followed by a one, and proceeds based on the rule that each number (called a Fibonacci number)
@@ -49,16 +49,29 @@ This repository contains various useful code samples.
 
 **Searching**
 
-* [Binary Search](java/algorithms/searching/BinarySearch.java)
+* [Binary Search](java/algorithms/searching/BinarySearch.java) is a search algorithm that finds the position of a target
+  value within a sorted array. Binary search compares the target value to the middle element of the array. If they are
+  not equal, the half in which the target cannot lie is eliminated and the search continues on the remaining half, again
+  taking the middle element to compare to the target value, and repeating this until the target value is found. If the
+  search ends with the remaining half being empty, the target is not in the array.
 
 **Sorts**
 
-* [Bubble Sort](java/algorithms/sorts/BubbleSort.java)
-* [Bucket Sort](java/algorithms/sorts/BucketSort.java)
-* [Insertion Sort](java/algorithms/sorts/InsertionSort.java)
-* [Merge Sort](java/algorithms/sorts/MergeSort.java)
-* [Quick Sort](java/algorithms/sorts/QuickSort.java)
-* [Radix Sort](java/algorithms/sorts/RadixSort.java)
+* [Bubble Sort](java/algorithms/sorts/BubbleSort.java) is a simple sorting algorithm that repeatedly steps through the
+  list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated
+  until the list is sorted.
+* [Bucket Sort](java/algorithms/sorts/BucketSort.java) is a sorting algorithm that works by distributing the elements of
+  an array into a number of buckets. Each bucket is then sorted individually, either using a different sorting
+  algorithm, or by recursively applying the bucket sorting algorithm.
+* [Insertion Sort](java/algorithms/sorts/InsertionSort.java) is a sorting algorithm that places an unsorted element at
+  its suitable place in each iteration.
+* [Merge Sort](java/algorithms/sorts/MergeSort.java) is a divide-and-conquer algorithm. It divides the input array into
+  two halves, calls itself for the two halves, and then merges the two sorted halves.
+* [Quick Sort](java/algorithms/sorts/QuickSort.java) is a divide-and-conquer algorithm. It works by selecting a 'pivot'
+  element from the array and partitioning the other elements into two sub-arrays, according to whether they are less
+  than or greater than the pivot.
+* [Radix Sort](java/algorithms/sorts/RadixSort.java) is a non-comparative sorting algorithm. It avoids comparison by
+  creating and distributing elements into buckets according to their radix.
 
 ## JavaScript
 
