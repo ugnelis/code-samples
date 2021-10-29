@@ -75,11 +75,17 @@ This repository contains various useful code samples.
 
 ## JavaScript
 
-### Pure JavasScript
+### Projects
 
 **Utility**
 
-* [Open, scale, save image](javascript/utility/open_scale_save)
+* [Open, scale, save image](javascript/utility/open_scale_save) in pure JavaScript.
+
+**Cesium**
+
+* [Check if an entity is visible](javascript/cesium/entity_is_visible)
+
+### Cesium
 
 ## Python
 
